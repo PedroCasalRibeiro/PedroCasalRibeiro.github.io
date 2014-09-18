@@ -22,7 +22,6 @@ hr{
 
 .site-wrapper-inner{
 	padding-bottom: 100px;
-	padding-right: 20px;
 }
 
 .masthead-brand{
@@ -91,8 +90,8 @@ hr{
 .img{
 	float:left;
 	z-index: -1;
-	margin-left: 2%;
-	height: 300px;
+	margin-left: 3%;
+	height: 434px;
 	width: 462px;
 }
 
@@ -465,7 +464,7 @@ color: #116fcb;
 @media (min-width: 1600px) { 
 
 .img{
-	height: 350px;
+	height: 500px;
 	width: 530px;
 }
 
@@ -493,7 +492,7 @@ color: #116fcb;
 @media (min-width: 1200px) and (max-width: 1599px) { 
 
 .img{
-	height: 275px;
+	height: 376px;
 	width: 400px;
 }
 
@@ -571,7 +570,7 @@ hr{
 @media (min-width: 992px) and (max-width: 1199px) { 
 
 .img{
-	height: 240px;
+	height: 338px;
 	width: 360px;
 }
 
@@ -712,7 +711,9 @@ body{
 }
 
 .img{
-	height: 240px;
+
+	margin-bottom: 0px;
+	height: 300px;
 	width: 320px;
 }
 
@@ -856,7 +857,7 @@ hr{
 .img{
 	float: inherit;
 	text-align: center;
-	height: 240px;
+	height: 347px;
 	width: 370px;
 	margin-top: 25%;
 	margin-left: 0%;
@@ -970,5 +971,37 @@ hr{
 	width: 65%;
 }
 
+
+}
+
+@media (max-width: 530px) {
+
+.img{
+	margin-top: 30%;
+	margin-left: 0%;
+	margin-bottom: 0px;
+}	
+
+.nav , .masthead-nav {
+
+	font-size: 12px;
+
+}
+
+}
+
+@media (max-width: 488px) {
+
+.img{
+	margin-top: 50%;
+	margin-left: 0%;
+	margin-bottom: 0px;
+}	
+
+.nav , .masthead-nav {
+
+	font-size: 10px;
+
+}
 
 }
